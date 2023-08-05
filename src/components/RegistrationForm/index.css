@@ -1,0 +1,81 @@
+.main-cont {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 500px;
+  height: 400px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 30px;
+  justify-content: center;
+}
+.main-heading {
+  color: #ea580c;
+  font-size: xx-large;
+}
+.label-text {
+  font-size: small;
+  font-weight: 500;
+  color: grey;
+}
+.first-input {
+  height: 40px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+}
+.submit-btn {
+  width: max-content;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ea580c;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+.red {
+  border-color: red;
+  background-color: rgb(249, 211, 211);
+}
+.des-color {
+  color: red;
+  margin-top: -15px;
+  font-size: 12px;
+}
+.Success-card {
+  width: 500px;
+  height: 300px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.success-img {
+  height: 100px;
+  width: 100px;
+}
+@media (max-width: 512px) {
+  .Success-card {
+    width: 350px;
+    height: 300px;
+  }
+  .form {
+    width: 350px;
+    height: 300px;
+  }
+}
